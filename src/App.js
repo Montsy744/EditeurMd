@@ -36,6 +36,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
+        <h1 className="text-center">Markdown Previewer</h1>
+        <hr />
         <div className="row">
           <div className="col-sm-6">
             <textarea
@@ -50,6 +52,7 @@ class App extends React.Component {
 
           <div className="col-sm-6">
             <div 
+            id='preview'
             dangerouslySetInnerHTML={this.renderText(this.state.text)} 
             />
           </div>

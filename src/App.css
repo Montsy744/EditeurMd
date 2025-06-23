@@ -1,3 +1,25 @@
 .container {
   margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@font-face {
+  font-family: 'sourGummy';
+  src: url('./../public/SourGummy-Light.ttf');
+}
+.container h1 {
+  text-align: center;
+  font-family: 'sourGummy';
+  color: #343a40;
+}
+
+.col-sm-6 textarea, .col-sm-6 #preview {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.col-sm-6 #preview {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 100%;
 }
